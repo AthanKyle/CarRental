@@ -1,0 +1,163 @@
+/* Classic Taxi
+    Layout Style Sheet
+	
+	Author: Maglalang, Kyle Athan T.
+*/
+
+*{  
+      box-sizing: border-box;
+}
+
+body {background-color: black;
+      font-family: lato, sans-serif;
+	  margin:0;}
+	 
+b {float: left;
+   margin-right: 10px;}
+   
+h1 {background-color: white;
+    color: black;  
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .1em;
+	word-spacing: .2em;}
+	
+h2{font-size: 90px;
+   font-style: italic;
+   font-family: bahnschrift;
+   color: darkorange;
+   text-align: center;
+   }
+	
+h3 {font-size: 20px;
+	color: orange;
+    text-align: center;
+	font-family: bahnschrift;}
+	
+		
+h4 {color: darkorange;}
+
+p  {color: white;
+    text-indent: 3em;
+	line-height: 2em;
+	font-size: 1.1em;}
+	
+footer {color: black;
+        background-color: dodgerblue;
+		border: solid 10px dodgerblue;
+		clear: both; font-weight: bold; 
+		text-align: center;}
+		
+*{  
+      box-sizing: border-box;
+}
+
+a {text-transform: uppercase;
+   font-weight: bold;}
+   
+
+nav{background: dodgerblue;
+    width:100%;
+	overflow: auto;}
+		
+ul {list-style: none;
+	margin: 0;
+    padding: 0;}
+
+li {float:right;}
+		   
+nav a{width:120px;
+      display:block;
+	  text-decoration:none;
+	  text-align:center;
+      background:black;
+	  font-size:17px;
+	  color:white;
+	  padding:20px 10px;}	
+
+nav a:hover{background:darkorange;
+            color:black;}	  
+			
+*{
+	    box-sizing: border-box;
+	}
+		
+.gallery{
+		border:1px solid white;
+		float: left;
+		width: 33.33%
+		padding: 5px;
+		box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1)
+		transition:1s;
+    }
+			
+.gallery img{
+	    display: block;
+	    width: 100%
+		height: auto%;
+		border-radius: 5px;
+	}
+		
+.gallery img:hover{
+	    transform: scale(1.1);
+		}		
+		
+.des{
+		padding:15px;
+	    text-align: left;
+		color: white;
+	}
+	
+.responsive:{
+		width: 50%
+		padding:20px;
+		margin: 100px auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+th {color: black;
+    background-color: darkorange;}	
+	
+td{border: 1px solid white;
+   color: black;
+   background-color: white;
+   padding-bottom: 1em;
+   padding-top: 1em;}
+     
+table {border: 4px solid white;
+	   border-radius: 10px;
+	   width: 85%;
+	   border-spacing: 15px;
+	   font-size: 1.5em;
+	   font-family: bahnschrift;}
+ 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+	
+.rental {
+	background-color: black;
+	 margin-left: auto;
+     margin-right: auto;
+	 border: 10px solid darkorange;
+	 width: 70%;
+}
+
+input {
+	line-height: 60px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 1em;
+	font-family: bahnschrift;
+}
+
+select {
+	line-height: 60px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 1em;
+	font-family: bahnschrift;
+}

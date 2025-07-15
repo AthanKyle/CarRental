@@ -1,0 +1,231 @@
+/* Classic Taxi
+    Layout Style Sheet
+	
+	Author: Maglalang, Kyle Athan T.
+*/
+*{  
+      box-sizing: border-box;
+	  margin: 0;
+	  padding: 0;
+	  background-color: white;
+}
+
+body {font-size: 1.1em;
+		      font-family: 'Poppins', sans-serif;
+			  background-color: white;}
+			  
+
+	  
+#videoBG {
+	position:fixed;
+	z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+	#videoBG {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	#videoBG {
+		width: auto;
+		height: 100%;
+	}
+}
+@media (max-width: 767px) {
+	#videoBG {
+		display: none;
+	}
+	body {
+	  background: url('backgroundvid.jpg');
+	  background-size: cover;
+	  margin:0;
+	}
+}
+		 
+h1 {background-color: transparent;
+    color: steelblue;
+	font-family:  bahnschrift;
+	font-size: 5.8em;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;}
+	
+h2{font-size: 60px;
+   font-family: bahnschrift;
+   font-style: italic;
+   color: steelblue;
+   background-color: gainsboro;
+   padding-top: 10px;
+   text-align: center;}
+   	
+h3 {font-size: 25px;
+	color: darkgoldenrod;
+    text-align: center;
+	font-family: bahnschrift;}
+	
+h4 {color: steelblue;
+    font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 15px;}
+	
+p  {background-image: url("background2.jpg");
+	color: black;
+    font-style: italic;
+    text-indent: 3em;
+	line-height: 2em;
+	font-size: 1.1em;
+	padding: 40px;}
+	
+li, a {
+	font-family: bahnschrift;
+	font-weight: bold;
+	font-size: 17px;
+    text-decoration: none;
+	background-color: steelblue;
+	border-radius: 12px;
+}
+		
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.navlinks li a {
+	transition: all 0.3s ease 0s;
+	color: white;	
+}
+
+.navlinks li a:hover{
+	color: goldenrod;
+}
+
+footer {color: white;
+        background-color: darkgoldenrod;
+		border: solid 10px darkgoldenrod;
+		clear: both; font-weight: bold; 
+		text-align: center;}
+
+.gallery{
+	    margin: 15px;
+		width: 700px;
+		height: 630px;
+		box-shadow: -1px 0 10px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		}
+	
+.gallery img {
+	width: 430px;
+	height: 250px;
+	display: flex;
+    }
+			
+.gallery img:hover{
+	    transform: scale(1.1);
+		}		
+		
+.des{
+	    text-align: left;
+		font-weight: 500;
+		color: black;
+		padding: 9px;
+		padding-top: 13px;
+	}
+	
+.responsive{
+		width: 800px;
+		height: 720px;
+		display: flex;
+		padding-left: 50%;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	
+th {color: white;
+    background-color: darkgoldenrod;
+	}	
+	
+td{border: 1px solid black;
+   color: black;
+   background-color: gainsboro;
+   padding-bottom: 1em;
+   padding-top: 1em;}
+     
+table {border: 8px solid gainsboro;
+	   width: 80%;
+	   border-spacing: 10px;
+	   border-radius: 15px;
+	   font-size: 1.5em;
+	   font-family: bahnschrift;
+	   margin-top: 20px;
+	   margin-bottom: 20px;}
+ 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rental th {background-color: white;
+            color: black;
+			letter-spacing: 5px;
+	        border-radius: 10px;
+	        padding: 10px;
+			}
+			
+			
+.rental td {background-image: url("background2.jpg");
+padding: 15px;}
+
+.rental {background-color: gainsboro;
+	 margin-left: auto;
+     margin-right: auto;
+	 margin-top: 80px;
+	 margin-bottom: 40px;
+	 border: 8px solid darkgoldenrod;
+	 width: 60%;
+}
+
+input {
+	line-height: 50px;
+	border-radius: 7px;
+	padding: 0 50px;
+	font-size: 1em;
+	font-family: bahnschrift;
+}
+
+input:hover{
+	background-color: silver;
+}
+
+select {
+	line-height: 60px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 1em;
+	font-family: bahnschrift;
+}
+
+

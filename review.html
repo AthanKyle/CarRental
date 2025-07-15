@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>Customer Reviews Link Page</title>
+	<link rel="stylesheet" href="rentcar_layout2.css">
+</head>
+<body>
+<header>
+	  <img class ="logo" src = "img/logo3.png" alt = "Page Logo">
+      <nav>
+	      <ul class= "navlinks">
+		  <li><a href = "home.html"> Home</a><li>
+          <li><a href = "variants.html"> Vehicles</a><li>
+          <li><a href = "prices.html"> Prices</a><li>		  
+		  <li><a href = "rent.html"> Rent Now</a><li> 
+		  <li><a href = "about.html"> About Us</a><li>
+		  <li><a href = "review.html"> Reviews</a><li>
+	      </ul>
+	  </nav>
+	 </header>
+	
+ <div class="hero">
+     <h2>Customers Review</h2>
+	 
+  <div class="container">
+   <div class="indicator">
+        <span class="btn active"></span>
+		<span class="btn"></span>
+		<span class="btn"></span>
+		<span class="btn"></span>
+	</div>
+	<div class="testimonial">
+	 <div class="slide-row" id="slide">
+	    <div class="slide-col">
+		    <div class="user-text">
+	        <p>"The staff is very kind and helpful. The website is simple and efficient. The choice of cars is "OK", and all cars are clean and in good condition."</p>
+			<h3>Luise Guiao</h3>
+			<p>Cutud, Angeles City Pampanga</p>
+		</div>
+        <div class="user-img">
+			<img src = "img/luise.jpg">
+		</div>
+	</div>
+	<div class="slide-col">
+		    <div class="user-text">
+	        <p>"Before arriving, they were really helpful via email with the doubts and questions. When we arrived, they were already waiting for us. Gave us the car (really new and clean). Everything was great. Best choice in Miura."</p>
+			<h3>Patricia Barcelon</h3>
+			<p>Pandan, Angeles City Pampanga</p>
+		</div>
+        <div class="user-img">
+			<img src = "img/pat.jpg">
+		</div>
+	</div>
+	<div class="slide-col">
+		    <div class="user-text">
+	        <p>"While spending a week at Baguio, we decided renting a car for 5 days. Using Miura Car Rental was very easy and swift - everything went as expected although none of the local cars we new. Very happy about the support and service."</p>
+			<h3>Kevin Quiroz</h3>
+			<p>Pulung Cacutud, Angeles City Pampanga</p>
+		</div>
+        <div class="user-img">
+			<img src = "img/kevin.jpg">
+		</div>
+	</div>
+	<div class="slide-col">
+		    <div class="user-text">
+	        <p>"The driver was great and we were able to take over and return the vehicle without any time loss. The vehicle was new and clean. I would book my rental car for Miura here again any time."</p>
+			<h3>Kyle Martinez</h3>
+			<p>Sapalibutad, Angeles City Pampanga</p>
+		</div>
+        <div class="user-img">
+			<img src = "img/kyle.jpg">
+		</div>
+	</div>
+  </div>
+</div>
+	
+<script>
+
+    var btn= document.getElementsByClassName("btn"); 
+	var slide = document.getElementById("slide");
+	
+	btn[0].onclick = function(){
+	    slide.style.transform = "translateX(0px)";
+		for(i=0;i<4;i++){
+		    btn[i].classList.remove("active");
+		}
+		this.classList.add("active");
+	}
+	btn[1].onclick = function(){
+	    slide.style.transform = "translateX(-800px)";
+		for(i=0;i<4;i++){
+		    btn[i].classList.remove("active");
+		}
+		this.classList.add("active");
+	}
+	btn[2].onclick = function(){
+	    slide.style.transform = "translateX(-1600px)";
+		for(i=0;i<4;i++){
+		    btn[i].classList.remove("active");
+		}
+		this.classList.add("active");
+	}
+	btn[3].onclick = function(){
+	    slide.style.transform = "translateX(-2400px)";
+		for(i=0;i<4;i++){
+		    btn[i].classList.remove("active");
+		}
+		this.classList.add("active");
+	}
+	
+</script>
+</body>
+</html>
